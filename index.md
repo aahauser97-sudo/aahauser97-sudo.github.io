@@ -11,6 +11,3 @@ Welcome to my corner of the internet. I write Young Adult fiction books. AAAAAAA
 ### Latest Works
 * **The Knowing** - A gripping tale about...
 * **Beyond the Wall** - Coming Fall 2026.
-
-### Navigate
-[About Me](/about) | [My Books](/books)
