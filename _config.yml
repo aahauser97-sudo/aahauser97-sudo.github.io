@@ -2,5 +2,14 @@ remote_theme: chesterhow/tale
 title: "Amanda Lynn | Author"
 description: "Writing Young Adult Fiction"
 
+# This overrides the theme's default "Posts" and "Tags" links
+navigation:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Books"
+    url: /books/
+
 plugins:
   - jekyll-remote-theme
