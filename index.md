@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!-- VIBRANT HERO SECTION -->
 <section id="hero" class="relative min-h-screen flex items-center justify-center px-6 text-center overflow-hidden">
     <div class="hero-visual-bg">
         <div class="blob blob-1"></div>
@@ -23,19 +24,67 @@ layout: default
     </div>
 </section>
 
+<!-- BOOKS SECTION -->
 <section id="books" class="max-w-6xl mx-auto py-32 px-6">
-    <div class="grid md:grid-cols-2 gap-16 mb-40">
+    <div class="mb-20 text-center">
+        <p class="text-indigo-600 font-bold text-sm mb-2 uppercase tracking-[0.2em]">Exhibition</p>
+        <h2 class="text-5xl font-bold tracking-tight">The Collection.</h2>
+    </div>
+    
+    <!-- Book 1: The Knowing -->
+    <div class="grid md:grid-cols-2 gap-16 mb-48">
         <div class="sticky top-24 self-start">
-            <img src="{{ '/images/knowing-cover.png' | relative_url }}" class="rounded-[40px] shadow-2xl w-full">
+            <img src="{{ '/images/knowing-cover.png' | relative_url }}" class="rounded-[40px] shadow-2xl w-full transition-transform duration-700 hover:scale-[1.02]">
         </div>
         <div class="flex flex-col justify-center">
             <h1 class="text-6xl font-extrabold mb-4 tracking-tighter">The Knowing</h1>
             <p class="text-indigo-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Published 2024</p>
-            <p class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">In a future where secrets are harvested like grain...</p>
+            <p class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
+                In a future where secrets are harvested like grain, one girl discovers a truth that could burn the fields to the ground. 
+            </p>
             <div class="world-node">
                 <h3 class="font-bold text-2xl mb-3 tracking-tight text-indigo-600">The Archive</h3>
-                <p class="text-gray-500 text-lg">Every citizen's "Knowing" is stored and indexed.</p>
+                <p class="text-gray-500 text-lg leading-relaxed">A centralized database where every citizen's "Knowing" is stored and indexed, forming the backbone of social order.</p>
             </div>
+        </div>
+    </div>
+
+    <!-- Book 2: Beyond the Wall -->
+    <div class="grid md:grid-cols-2 gap-16 mb-40">
+        <div class="sticky top-24 self-start">
+            <img src="{{ '/images/beyond-the-wall.png' | relative_url }}" class="rounded-[40px] shadow-2xl w-full transition-transform duration-700 hover:scale-[1.02]">
+        </div>
+        <div class="flex flex-col justify-center">
+            <h1 class="text-6xl font-extrabold mb-4 tracking-tighter">Beyond the Wall</h1>
+            <p class="text-rose-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Coming Fall 2026</p>
+            <p class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
+                The wall was built to keep things out. But Sarah realized too late that it was actually built to keep them in.
+            </p>
+            <div class="world-node">
+                <h3 class="font-bold text-2xl mb-3 tracking-tight text-rose-600">The Perimeter</h3>
+                <p class="text-gray-500 text-lg leading-relaxed">A high-tech isolation barrier that hides the reality of the wasteland from the last city on Earth.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about" class="py-40 px-6 bg-[#fbfbfd]">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-20">
+        <div class="relative group">
+            <div class="absolute -inset-4 bg-gradient-to-tr from-indigo-500 to-rose-500 rounded-full blur opacity-20 group-hover:opacity-40 transition-all duration-500"></div>
+            <div class="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden bg-white shadow-2xl flex items-center justify-center border-8 border-white">
+                <img src="{{ '/images/bio-photo.jpg' | relative_url }}" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
+            </div>
+        </div>
+        <div class="max-w-xl">
+            <h2 class="text-5xl font-bold mb-8 tracking-tight">The Visionary.</h2>
+            <p class="text-xl text-gray-600 leading-relaxed mb-8 font-medium">
+                Amanda Lynn is a critically acclaimed novelist whose work explores the thin line between reality and perception through immersive storytelling.
+            </p>
+            <p class="text-xl text-gray-600 leading-relaxed font-medium">
+                Based in the Pacific Northwest, she constructs worlds that challenge the boundaries of identity and memory.
+            </p>
         </div>
     </div>
 </section>
