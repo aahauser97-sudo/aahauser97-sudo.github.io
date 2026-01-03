@@ -69,15 +69,28 @@ layout: default
         </div>
         <div class="flex flex-col justify-center">
             <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tighter text-gray-900">Beyond the Wall</h1>
-            <p class="text-rose-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Coming Fall 2026</p>
+            <p class="text-rose-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Manuscript Coming Fall 2026</p>
             <div class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
+                <div class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
+                <p class="mb-6">
+                    In an impoverished world where ruthless rules keep the poor desperate, Sorrel has one goal - keep her younger sister, Livia, alive.
+                </p>
+                <p class="mb-6">
+                    Millennia ago, towering walls were raised to protect humanity from the creatures beyond. Inside them, survival is scarce. Outside them, it is impossible.
+                </p>
+                <p class="mb-6">
+                    When a single, devastating mistake forces both Sorrel and her sister beyond the walls, Sorrel realizes just how far she'll go to keep her sister alive. The monsters are worse than they had ever imagined.
+                </p>
+                <p class="mb-6">
+                    To keep her sister alive, Sorrel must do the unthinkable.
+                </p>
                 <p>
-                    The wall was built to keep things out. But Sarah realized too late that it was actually built to keep them in.
+                    She must become the very thing the walls were built to keep out.
                 </p>
             </div>
             <div class="world-node">
-                <h3 class="font-bold text-2xl mb-3 tracking-tight text-rose-600">The Perimeter</h3>
-                <p class="text-gray-500 text-lg leading-relaxed">A high-tech isolation barrier that hides the reality of the wasteland from the last city on Earth.</p>
+                <h3 class="font-bold text-2xl mb-3 tracking-tight text-rose-600">Status</h3>
+                <p class="text-gray-500 text-lg leading-relaxed">Manuscript estimated completion date: Fall 2026</p>
             </div>
         </div>
     </div>
