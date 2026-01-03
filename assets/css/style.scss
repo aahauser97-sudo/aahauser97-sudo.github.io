@@ -1,0 +1,13 @@
+---
+---
+@import "{{ site.theme }}";
+
+/* This makes the white box fill more of your screen */
+.inner {
+  max-width: 1200px; /* Standard wide-screen width */
+  width: 95%;        /* Makes it look good on mobile too */
+}
+
+#main_content {
+  width: 100%;
+}
