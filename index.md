@@ -6,7 +6,7 @@ title: Welcome
 # Hello, I'm Amanda
 **Author & Storyteller**
 
-Welcome to my corner of the internet. I write Young Adult fiction books.  
+Welcome to my corner of the internet. I write Young Adult fiction books. Hello
 
 ### Latest Works
 * **[The Knowing](/books)** - A gripping tale about...
