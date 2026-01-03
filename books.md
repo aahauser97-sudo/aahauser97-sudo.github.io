@@ -6,7 +6,9 @@ layout: default
 
 ### The Knowing
 **Status:** Published  
-*A gripping tale about... [Add a 2-sentence blurb here].* [Buy on Amazon](#) | [Add to Goodreads](#)
+*A gripping tale about... [Add a 2-sentence blurb here].*
+
+<img src="/images/knowing-cover.jpg" style="width: 250px; border-radius: 5px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
 
 ---
 
