@@ -1,6 +1,5 @@
 ---
-layout: home
-title: Welcome
+layout: default
 ---
 
 # Hello, I'm Amanda
@@ -8,9 +7,5 @@ title: Welcome
 
 Welcome to my corner of the internet. I write Young Adult fiction books.  
 
-### Latest Works
-* **[The Knowing](/books)** - A gripping tale about...
-* **[Beyond the Wall](/books)** - Coming Fall 2026.
-
 ### Navigate
-[About Me](/about) | [My Books](/books) | [Contact](#)
+[About Me](/about) | [My Books](/books)
