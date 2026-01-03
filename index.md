@@ -44,7 +44,7 @@ layout: default
             <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tighter text-gray-900">The Knowing</h1>
             <p class="text-indigo-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Completed Draft 2025</p>
             <p class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
-                In a future where secrets are harvested like grain, one girl discovers a truth that could burn the fields to the ground. 
+                Secrets can be ripped straight from your mind, and while some in society possess fragments of that power, only Jackson Vanderlin wields it absolutely. In the ashes of a post-apocalyptic world, his reign of perfect knowledge has created a fragile peace—one built on fear, surveillance, and the absence of lies. To the world, he is untouchable. To his daughter, Willow, he is both father and oppressor. But when her older brother fails to inherit Jackson’s abilities and Willow begins to manifest them instead, she is thrust into a succession she never wanted. Her path isn’t rebellion—it’s a desperate search for truth in a world where truth itself has been weaponized. And what she uncovers challenges everything she believes about power and loyalty, revealing that even tyranny can be born of conviction, and that morality lives in dangerous shades of gray. If Willow dares to expose what she’s learned, she risks not only destroying her family, but unraveling the precarious stability of a society already on the brink.
             </p>
             <div class="world-node">
                 <h3 class="font-bold text-2xl mb-3 tracking-tight text-indigo-600">The Archive</h3>
