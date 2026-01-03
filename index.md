@@ -90,10 +90,10 @@ layout: default
         <div class="max-w-xl text-center md:text-left">
             <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight">The Visionary.</h2>
             <p class="text-lg md:text-xl text-gray-600 leading-relaxed mb-8 font-medium">
-                Amanda Lynn is a critically acclaimed novelist whose work explores the thin line between reality and perception through immersive storytelling.
+                Amanda Lynn is an inspiring novelist. Storytelling came naturally from a young age. Her first memory creating something that others stopped to listen, was in fourth grade, during standardized testing week. Her entire class created a fort of desks and turned out the lights while Amanda entertained her classmates with ghost stories made up on the spot.
             </p>
             <p class="text-lg md:text-xl text-gray-600 leading-relaxed font-medium">
-                Based in the Pacific Northwest, she constructs worlds that challenge the boundaries of identity and memory.
+                Based in the Northeast, Amanda's active imagination and vivid dreams come to life in thick journals with the help of her trustie dog companion warming her lap.
             </p>
         </div>
     </div>
