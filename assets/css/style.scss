@@ -2,7 +2,6 @@
 ---
 @import "{{ site.theme }}";
 
-/* Make the site fill the screen */
 .inner {
   max-width: 1100px;
   width: 95%;
@@ -12,22 +11,23 @@
   width: 100%;
 }
 
-/* Navigation Button Styling */
+/* Red Navigation Buttons */
 .nav-button {
   display: inline-block;
   padding: 8px 18px;
   margin-right: 10px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: #fff;            /* White background */
+  border: 2px solid #cc0000;         /* Red border */
   border-radius: 4px;
-  color: #fff !important;
+  color: #cc0000 !important;         /* Bold Red text */
   text-decoration: none !important;
+  font-weight: bold;
   font-size: 0.9em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   transition: all 0.3s ease;
 }
 
 .nav-button:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: #fff;
+  background-color: #cc0000;         /* Flips to Red background on hover */
+  color: #fff !important;            /* Flips to White text on hover */
 }
