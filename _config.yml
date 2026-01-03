@@ -1,3 +1,7 @@
 remote_theme: chesterhow/tale
 title: Amanda Lynn | Author
-description: Writing Yound Adult Fiction
+description: Writing Young Adult Fiction
+
+# Add this section below:
+plugins:
+  - jekyll-remote-theme
