@@ -78,9 +78,11 @@ layout: default
 <section id="about" class="py-40 px-6 bg-[#fbfbfd]">
     <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-20">
         <div class="relative group">
-            <div class="absolute -inset-4 bg-gradient-to-tr from-indigo-500 to-rose-500 rounded-full blur opacity-20 transition-all duration-500"></div>
-            <div class="relative w-48 h-48 md:w-96 md:h-96 rounded-full overflow-hidden bg-white shadow-2xl flex items-center justify-center border-8 border-white">
-                <img src="{{ '/images/bio-photo.jpg' | relative_url }}" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000">
+            <!-- Animated background accent -->
+            <div class="absolute -inset-4 bg-gradient-to-tr from-indigo-500 to-rose-500 rounded-full blur opacity-20 transition-all duration-500 group-hover:opacity-40"></div>
+            <!-- Headshot Container -->
+            <div class="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl flex items-center justify-center">
+                <img src="{{ '/images/headshot.png' | relative_url }}" class="w-full h-full object-cover transition-transform duration-700 hover:scale-110">
             </div>
         </div>
         <div class="max-w-xl text-center md:text-left">
