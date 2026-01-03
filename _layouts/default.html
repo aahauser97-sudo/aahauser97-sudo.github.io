@@ -23,7 +23,12 @@
         .text-gradient-vibrant { background: linear-gradient(to bottom right, #1d1d1f 20%, #4f46e5 50%, #f43f5e 80%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-size: 200% auto; animation: shine 8s linear infinite; }
         @keyframes shine { to { background-position: 200% center; } }
         .world-node { background: rgba(245, 245, 247, 0.7); backdrop-filter: blur(10px); border-radius: 24px; padding: 2.5rem; border: 1px solid rgba(0, 0, 0, 0.03); transition: all 0.4s ease; }
-        .world-node:hover { border-color: #4f46e5; background: #fff; transform: translateY(-5px); }
+        
+        /* Mobile Image Fix */
+        @media (max-width: 768px) {
+            .book-image-container { max-width: 280px; margin: 0 auto; }
+            .sticky-container { position: relative !important; top: 0 !important; }
+        }
     </style>
 </head>
 <body class="antialiased">
@@ -31,7 +36,6 @@
         <a href="#hero" class="hover:text-black">Home</a>
         <a href="#books" class="hover:text-black">Books</a>
         <a href="#about" class="hover:text-black">About</a>
-        <a href="#newsletter" class="hover:text-black">Newsletter</a>
     </nav>
     <div class="pt-12">{{ content }}</div>
     <footer class="py-24 px-6 border-t border-gray-100 text-center bg-[#fbfbfd]">
