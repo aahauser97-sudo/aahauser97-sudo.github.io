@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Books
 ---
 
 # My Works
