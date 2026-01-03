@@ -11,16 +11,16 @@ layout: default
     </div>
     
     <div class="max-w-5xl mx-auto relative z-10">
-        <span class="inline-block px-4 py-2 mb-8 text-[11px] font-black tracking-[0.3em] uppercase bg-gradient-to-r from-indigo-600 to-rose-500 text-white rounded-full shadow-lg">New Release 2024</span>
+        <span class="inline-block px-4 py-2 mb-8 text-[11px] font-black tracking-[0.3em] uppercase bg-gradient-to-r from-indigo-600 to-rose-500 text-white rounded-full shadow-lg">Looking for an Agent</span>
         <h1 class="text-6xl md:text-[9rem] font-extrabold tracking-tighter mb-8 block">
             <span class="text-gradient-vibrant">Amanda</span> <br> 
             <span class="text-gradient-vibrant">Lynn.</span>
         </h1>
         <p class="text-lg md:text-3xl text-gray-600 max-w-3xl mx-auto mb-14 font-medium leading-tight">
-            Experience the future of narrative. The official home of <span class="text-indigo-600 font-bold">Amanda Lynn</span>.
+            The official megaphone of <span class="text-indigo-600 font-bold">Amanda Lynn</span>.
         </p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
-            <button onclick="document.getElementById('books').scrollIntoView({behavior:'smooth'})" class="w-full sm:w-auto bg-black text-white px-12 py-5 rounded-full font-bold hover:scale-105 transition-all shadow-2xl shadow-indigo-500/20">The Collection</button>
+            <button onclick="document.getElementById('books').scrollIntoView({behavior:'smooth'})" class="w-full sm:w-auto bg-black text-white px-12 py-5 rounded-full font-bold hover:scale-105 transition-all shadow-2xl shadow-indigo-500/20">Works in Progress</button>
             <button onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})" class="w-full sm:w-auto bg-white/40 border border-black/10 backdrop-blur-md text-black px-12 py-5 rounded-full font-bold hover:bg-white transition-all shadow-lg">The Author</button>
         </div>
     </div>
@@ -30,7 +30,7 @@ layout: default
 <section id="books" class="max-w-6xl mx-auto py-32 px-6">
     <div class="mb-20 text-center">
         <p class="text-indigo-600 font-bold text-sm mb-2 uppercase tracking-[0.2em]">Exhibition</p>
-        <h2 class="text-5xl font-bold tracking-tight">The Collection.</h2>
+        <h2 class="text-5xl font-bold tracking-tight">Works in Progress.</h2>
     </div>
     
     <!-- Book 1: The Knowing -->
@@ -42,7 +42,7 @@ layout: default
         </div>
         <div class="flex flex-col justify-center">
             <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tighter text-gray-900">The Knowing</h1>
-            <p class="text-indigo-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Published 2024</p>
+            <p class="text-indigo-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Completed Draft 2025</p>
             <p class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
                 In a future where secrets are harvested like grain, one girl discovers a truth that could burn the fields to the ground. 
             </p>
