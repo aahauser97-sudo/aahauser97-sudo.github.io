@@ -78,11 +78,13 @@ layout: default
 <section id="about" class="py-40 px-6 bg-[#fbfbfd]">
     <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-20">
         <div class="relative group">
-            <!-- Animated background accent -->
             <div class="absolute -inset-4 bg-gradient-to-tr from-indigo-500 to-rose-500 rounded-full blur opacity-20 transition-all duration-500 group-hover:opacity-40"></div>
-            <!-- Headshot Container -->
-            <div class="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl flex items-center justify-center">
-                <img src="{{ '/images/headshot.png' | relative_url }}" class="w-full h-full object-cover transition-transform duration-700 hover:scale-110">
+            <div class="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl flex items-center justify-center bg-gray-100">
+                <!-- Added site.time to force refresh of the image -->
+                <img src="{{ '/images/headshot.png' | relative_url }}?v={{ site.time | date: '%s' }}" 
+                     alt="Amanda Lynn"
+                     class="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
+                     onerror="this.src='https://ui-avatars.com/api/?name=Amanda+Lynn&size=512'">
             </div>
         </div>
         <div class="max-w-xl text-center md:text-left">
