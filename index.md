@@ -43,9 +43,16 @@ layout: default
         <div class="flex flex-col justify-center">
             <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tighter text-gray-900">The Knowing</h1>
             <p class="text-indigo-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Completed Draft 2025</p>
-            <p class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
-                Secrets can be ripped straight from your mind, and while some in society possess fragments of that power, only Jackson Vanderlin wields it absolutely. In the ashes of a post-apocalyptic world, his reign of perfect knowledge has created a fragile peace - one built on fear, surveillance, and the absence of lies. To the world, he is untouchable. To his daughter, Willow, he is both father and oppressor. But when her older brother fails to inherit Jackson’s abilities and Willow begins to manifest them instead, she is thrust into a succession she never wanted. Her path isn’t rebellion - it’s a desperate search for truth in a world where truth itself has been weaponized. And what she uncovers challenges everything she believes about power and loyalty, revealing that even tyranny can be born of conviction, and that morality lives in dangerous shades of gray. If Willow dares to expose what she’s learned, she risks not only destroying her family, but unraveling the precarious stability of a society already on the brink.
-            </p>
+            
+            <div class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
+                <p class="mb-6">
+                    Secrets can be ripped straight from your mind, and while some in society possess fragments of that power, only Jackson Vanderlin wields it absolutely. In the ashes of a post-apocalyptic world, his reign of perfect knowledge has created a fragile peace - one built on fear, surveillance, and the absence of lies. To the world, he is untouchable. To his daughter, Willow, he is both father and oppressor.
+                </p>
+                <p>
+                    But when her older brother fails to inherit Jackson’s abilities and Willow begins to manifest them instead, she is thrust into a succession she never wanted. Her path isn’t rebellion - it’s a desperate search for truth in a world where truth itself has been weaponized. And what she uncovers challenges everything she believes about power and loyalty, revealing that even tyranny can be born of conviction, and that morality lives in dangerous shades of gray. If Willow dares to expose what she’s learned, she risks not only destroying her family, but unraveling the precarious stability of a society already on the brink.
+                </p>
+            </div>
+
             <div class="world-node">
                 <h3 class="font-bold text-2xl mb-3 tracking-tight text-indigo-600">Status</h3>
                 <p class="text-gray-500 text-lg leading-relaxed">Manuscript ready for agent review. Please contact Amanda Lynn at amandalynn.author@gmail.com for a copy of the manuscript if interested. Only serious inquiries from accredited agents.</p>
@@ -63,9 +70,11 @@ layout: default
         <div class="flex flex-col justify-center">
             <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tighter text-gray-900">Beyond the Wall</h1>
             <p class="text-rose-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Coming Fall 2026</p>
-            <p class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
-                The wall was built to keep things out. But Sarah realized too late that it was actually built to keep them in.
-            </p>
+            <div class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
+                <p>
+                    The wall was built to keep things out. But Sarah realized too late that it was actually built to keep them in.
+                </p>
+            </div>
             <div class="world-node">
                 <h3 class="font-bold text-2xl mb-3 tracking-tight text-rose-600">The Perimeter</h3>
                 <p class="text-gray-500 text-lg leading-relaxed">A high-tech isolation barrier that hides the reality of the wasteland from the last city on Earth.</p>
@@ -80,7 +89,6 @@ layout: default
         <div class="relative group">
             <div class="absolute -inset-4 bg-gradient-to-tr from-indigo-500 to-rose-500 rounded-full blur opacity-20 transition-all duration-500 group-hover:opacity-40"></div>
             <div class="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl flex items-center justify-center bg-gray-100">
-                <!-- Added site.time to force refresh of the image -->
                 <img src="{{ '/images/headshot.png' | relative_url }}?v={{ site.time | date: '%s' }}" 
                      alt="Amanda Lynn"
                      class="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
@@ -88,13 +96,15 @@ layout: default
             </div>
         </div>
         <div class="max-w-xl text-center md:text-left">
-            <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight">Aspiring Published Author </h2>
-            <p class="text-lg md:text-xl text-gray-600 leading-relaxed mb-8 font-medium">
-                Amanda Lynn is an aspiring novelist. Storytelling came naturally from a young age. Her first memory creating something that others stopped to listen was in fourth grade, during standardized testing week. Her entire class created a fort of desks and turned out the lights while Amanda entertained her classmates with ghost stories made up on the spot.
-            </p>
-            <p class="text-lg md:text-xl text-gray-600 leading-relaxed font-medium">
-                Based in the Northeast, Amanda's active imagination and vivid dreams come to life in thick journals with the help of her trustie dog companion warming her lap.
-            </p>
+            <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight">Aspiring Published Author</h2>
+            <div class="text-lg md:text-xl text-gray-600 leading-relaxed font-medium">
+                <p class="mb-6">
+                    Amanda Lynn is an aspiring novelist. Storytelling came naturally from a young age. Her first memory creating something that others stopped to listen was in fourth grade, during standardized testing week. Her entire class created a fort of desks and turned out the lights while Amanda entertained her classmates with ghost stories made up on the spot.
+                </p>
+                <p>
+                    Based in the Northeast, Amanda's active imagination and vivid dreams come to life in thick journals with the help of her trustie dog companion warming her lap.
+                </p>
+            </div>
         </div>
     </div>
 </section>
