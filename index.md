@@ -14,10 +14,10 @@ layout: default
         <span class="inline-block px-4 py-2 mb-8 text-[11px] font-black tracking-[0.3em] uppercase bg-gradient-to-r from-indigo-600 to-rose-500 text-white rounded-full shadow-lg">Looking for an Agent</span>
         <h1 class="text-6xl md:text-[9rem] font-extrabold tracking-tighter mb-8 block">
             <span class="text-gradient-vibrant">Amanda</span> <br> 
-            <span class="text-gradient-vibrant">Lynn.</span>
+            <span class="text-gradient-vibrant">Lynn</span>
         </h1>
         <p class="text-lg md:text-3xl text-gray-600 max-w-3xl mx-auto mb-14 font-medium leading-tight">
-            The official megaphone of <span class="text-indigo-600 font-bold">Amanda Lynn</span>.
+            The official place to learn about the ongoing works of <span class="text-indigo-600 font-bold">Amanda Lynn</span>.
         </p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
             <button onclick="document.getElementById('books').scrollIntoView({behavior:'smooth'})" class="w-full sm:w-auto bg-black text-white px-12 py-5 rounded-full font-bold hover:scale-105 transition-all shadow-2xl shadow-indigo-500/20">Works in Progress</button>
@@ -44,11 +44,11 @@ layout: default
             <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tighter text-gray-900">The Knowing</h1>
             <p class="text-indigo-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Completed Draft 2025</p>
             <p class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
-                Secrets can be ripped straight from your mind, and while some in society possess fragments of that power, only Jackson Vanderlin wields it absolutely. In the ashes of a post-apocalyptic world, his reign of perfect knowledge has created a fragile peace—one built on fear, surveillance, and the absence of lies. To the world, he is untouchable. To his daughter, Willow, he is both father and oppressor. But when her older brother fails to inherit Jackson’s abilities and Willow begins to manifest them instead, she is thrust into a succession she never wanted. Her path isn’t rebellion—it’s a desperate search for truth in a world where truth itself has been weaponized. And what she uncovers challenges everything she believes about power and loyalty, revealing that even tyranny can be born of conviction, and that morality lives in dangerous shades of gray. If Willow dares to expose what she’s learned, she risks not only destroying her family, but unraveling the precarious stability of a society already on the brink.
+                Secrets can be ripped straight from your mind, and while some in society possess fragments of that power, only Jackson Vanderlin wields it absolutely. In the ashes of a post-apocalyptic world, his reign of perfect knowledge has created a fragile peace - one built on fear, surveillance, and the absence of lies. To the world, he is untouchable. To his daughter, Willow, he is both father and oppressor. But when her older brother fails to inherit Jackson’s abilities and Willow begins to manifest them instead, she is thrust into a succession she never wanted. Her path isn’t rebellion - it’s a desperate search for truth in a world where truth itself has been weaponized. And what she uncovers challenges everything she believes about power and loyalty, revealing that even tyranny can be born of conviction, and that morality lives in dangerous shades of gray. If Willow dares to expose what she’s learned, she risks not only destroying her family, but unraveling the precarious stability of a society already on the brink.
             </p>
             <div class="world-node">
-                <h3 class="font-bold text-2xl mb-3 tracking-tight text-indigo-600">The Institution</h3>
-                <p class="text-gray-500 text-lg leading-relaxed">A place where young adults begin their Transition, or worse, don't.</p>
+                <h3 class="font-bold text-2xl mb-3 tracking-tight text-indigo-600">Status</h3>
+                <p class="text-gray-500 text-lg leading-relaxed">Manuscript ready for agent review. Please contact Amanda Lynn at amandalynn.author@gmail.com for a copy of the manuscript if interested. Only serious inquiries from accredited agents.</p>
             </div>
         </div>
     </div>
@@ -88,9 +88,9 @@ layout: default
             </div>
         </div>
         <div class="max-w-xl text-center md:text-left">
-            <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight">Aspiring Author in Progress.</h2>
+            <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight">Aspiring Published Author </h2>
             <p class="text-lg md:text-xl text-gray-600 leading-relaxed mb-8 font-medium">
-                Amanda Lynn is an inspiring novelist. Storytelling came naturally from a young age. Her first memory creating something that others stopped to listen, was in fourth grade, during standardized testing week. Her entire class created a fort of desks and turned out the lights while Amanda entertained her classmates with ghost stories made up on the spot.
+                Amanda Lynn is an aspiring novelist. Storytelling came naturally from a young age. Her first memory creating something that others stopped to listen was in fourth grade, during standardized testing week. Her entire class created a fort of desks and turned out the lights while Amanda entertained her classmates with ghost stories made up on the spot.
             </p>
             <p class="text-lg md:text-xl text-gray-600 leading-relaxed font-medium">
                 Based in the Northeast, Amanda's active imagination and vivid dreams come to life in thick journals with the help of her trustie dog companion warming her lap.
