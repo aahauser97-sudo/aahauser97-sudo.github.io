@@ -8,8 +8,7 @@ layout: default
 **Status:** Published  
 *A gripping tale about... [Add a 2-sentence blurb here].*
 
-<img src="/images/knowing-cover.jpg" style="width: 250px; border-radius: 5px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
-
+<img src="{{ '/images/knowing-cover.jpg' | relative_url }}" style="width: 250px; border-radius: 5px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
 ---
 
 ### Beyond the Wall
