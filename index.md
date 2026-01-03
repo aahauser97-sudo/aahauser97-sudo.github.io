@@ -1,12 +1,8 @@
 ---
 layout: default
-title: Home
 ---
 
-# Hello, I'm Amanda
-**Author & Storyteller**
-
-Welcome to my corner of the internet. I write Young Adult fiction books. AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Welcome to my corner of the internet. I write Young Adult fiction books. 
 
 ### Latest Works
 * **The Knowing** - A gripping tale about...
