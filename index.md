@@ -114,10 +114,10 @@ layout: default
             <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight">Aspiring Published Author</h2>
             <div class="text-lg md:text-xl text-gray-600 leading-relaxed font-medium">
                 <p class="mb-6">
-                    Amanda Lynn is an aspiring novelist. Storytelling came naturally from a young age. Her first memory creating something that others stopped to listen was in fourth grade, during standardized testing week. Her entire class created a fort of desks and turned out the lights while Amanda entertained her classmates with ghost stories made up on the spot.
+                    Amanda Lynn is an aspiring novelist whose love of storytelling began early. One of her first memories of capturing an audience comes from fourth grade, during standardized testing week, when her class build a fort of desks and turned out the lights. They gathered round as Amanda improsives ghost stories on the spot.
                 </p>
                 <p>
-                    Based in the Northeast, Amanda's active imagination and vivid dreams come to life in thick journals with the help of her trustie dog companion warming her lap.
+                    Based in DC, Amanda's brings her vivid imagination and dream-driven ideas to life in thick journals, always with the help of her trustie dog companion warming her lap as she writes.
                 </p>
             </div>
         </div>
