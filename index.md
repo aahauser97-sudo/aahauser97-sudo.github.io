@@ -2,7 +2,95 @@
 layout: default
 ---
 
-<!-- VIBRANT HERO SECTION -->
+<style>
+    /* Smooth Scroll Behavior */
+    html { scroll-behavior: smooth; }
+
+    /* Glassmorphism Floating Nav */
+    .glass-nav {
+        position: fixed;
+        top: 24px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        background: rgba(255, 255, 255, 0.75);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(0, 0, 0, 0.08);
+        border-radius: 100px;
+        padding: 10px 28px;
+        display: flex;
+        gap: 24px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+    }
+
+    .nav-link {
+        font-size: 11px;
+        font-weight: 700;
+        color: #666;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        transition: all 0.3s ease;
+    }
+
+    .nav-link:hover { color: #4f46e5; transform: translateY(-1px); }
+
+    /* Scroll Reveal Animation */
+    .reveal {
+        opacity: 0;
+        transform: translateY(40px);
+        transition: all 1s cubic-bezier(0.22, 1, 0.36, 1);
+        will-change: transform, opacity;
+    }
+
+    .reveal.active {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    /* Tactile Status Box Hover */
+    .world-node {
+        transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+        border-left: 4px solid transparent;
+        background: rgba(249, 250, 251, 0.5);
+    }
+    
+    .world-node:hover {
+        background: white;
+        transform: scale(1.02) translateX(8px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.04);
+        border-left-color: #4f46e5;
+    }
+
+    /* Shimmering Gradient Animation for Name */
+    .text-gradient-vibrant {
+        background: linear-gradient(135deg, #6366f1, #d946ef, #f43f5e, #6366f1);
+        background-size: 300% 300%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shimmer 12s ease infinite;
+    }
+
+    @keyframes shimmer {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    /* Polish for Book Shadows */
+    .book-image-shadow {
+        box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3);
+    }
+</style>
+
+<!-- FLOATING NAVIGATION -->
+<nav class="glass-nav">
+    <a href="#hero" class="nav-link">Home</a>
+    <a href="#books" class="nav-link">Archive</a>
+    <a href="#about" class="nav-link">Author</a>
+</nav>
+
+<!-- HERO SECTION -->
 <section id="hero" class="relative min-h-screen flex items-center justify-center px-6 text-center overflow-hidden">
     <div class="hero-visual-bg">
         <div class="blob blob-1"></div>
@@ -10,116 +98,15 @@ layout: default
         <div class="blob blob-3"></div>
     </div>
     
-    <div class="max-w-5xl mx-auto relative z-10">
-        <span class="inline-block px-4 py-2 mb-8 text-[11px] font-black tracking-[0.3em] uppercase bg-gradient-to-r from-indigo-600 to-rose-500 text-white rounded-full shadow-lg">Looking for an Agent</span>
-        <h1 class="text-6xl md:text-[9rem] font-extrabold tracking-tighter mb-8 block">
+    <div class="max-w-5xl mx-auto relative z-10 reveal">
+        <span class="inline-block px-5 py-2 mb-10 text-[10px] font-black tracking-[0.4em] uppercase bg-black text-white rounded-full shadow-xl">Aspiring Novelist</span>
+        <h1 class="text-7xl md:text-[10rem] font-extrabold tracking-tighter mb-8 block leading-[0.85]">
             <span class="text-gradient-vibrant">Amanda</span> <br> 
             <span class="text-gradient-vibrant">Lynn</span>
         </h1>
-        <p class="text-lg md:text-3xl text-gray-600 max-w-3xl mx-auto mb-14 font-medium leading-tight">
-            The official place to learn about the ongoing works of <span class="text-indigo-600 font-bold">Amanda Lynn</span>.
+        <p class="text-xl md:text-3xl text-gray-500 max-w-2xl mx-auto mb-16 font-medium leading-tight">
+            Drafting stories where <span class="text-black font-bold">survival</span> is a choice and <span class="text-black font-bold">secrets</span> are the currency.
         </p>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
-            <button onclick="document.getElementById('books').scrollIntoView({behavior:'smooth'})" class="w-full sm:w-auto bg-black text-white px-12 py-5 rounded-full font-bold hover:scale-105 transition-all shadow-2xl shadow-indigo-500/20">Works in Progress</button>
-            <button onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})" class="w-full sm:w-auto bg-white/40 border border-black/10 backdrop-blur-md text-black px-12 py-5 rounded-full font-bold hover:bg-white transition-all shadow-lg">The Author</button>
-        </div>
-    </div>
-</section>
-
-<!-- BOOKS SECTION -->
-<section id="books" class="max-w-6xl mx-auto py-32 px-6">
-    <div class="mb-20 text-center">
-        <p class="text-indigo-600 font-bold text-sm mb-2 uppercase tracking-[0.2em]">Exhibition</p>
-        <h2 class="text-5xl font-bold tracking-tight">Works in Progress.</h2>
-    </div>
-    
-    <!-- Book 1: The Knowing -->
-    <div class="grid md:grid-cols-2 gap-16 mb-48">
-        <div class="sticky-container md:sticky md:top-24 self-start">
-            <div class="book-image-container">
-                <img src="{{ '/images/knowing-cover.png' | relative_url }}" class="rounded-[40px] shadow-2xl w-full transition-transform duration-700 hover:scale-[1.02]">
-            </div>
-        </div>
-        <div class="flex flex-col justify-center">
-            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tighter text-gray-900">The Knowing</h1>
-            <p class="text-indigo-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Completed Draft 2025</p>
-            
-            <div class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
-                <p class="mb-6">
-                    Secrets can be ripped straight from your mind, and while some in society possess fragments of that power, only Jackson Vanderlin wields it absolutely. In the ashes of a post-apocalyptic world, his reign of perfect knowledge has created a fragile peace - one built on fear, surveillance, and the absence of lies. To the world, he is untouchable. To his daughter, Willow, he is both father and oppressor.
-                </p>
-                <p>
-                    But when her older brother fails to inherit Jackson’s abilities and Willow begins to manifest them instead, she is thrust into a succession she never wanted. Her path isn’t rebellion - it’s a desperate search for truth in a world where truth itself has been weaponized. And what she uncovers challenges everything she believes about power and loyalty, revealing that even tyranny can be born of conviction, and that morality lives in dangerous shades of gray. If Willow dares to expose what she’s learned, she risks not only destroying her family, but unraveling the precarious stability of a society already on the brink.
-                </p>
-            </div>
-
-            <div class="world-node">
-                <h3 class="font-bold text-2xl mb-3 tracking-tight text-indigo-600">Status</h3>
-                <p class="text-gray-500 text-lg leading-relaxed">Manuscript ready for agent review. Please contact Amanda Lynn at amandalynn.author@gmail.com for a copy of the manuscript if interested. Only serious inquiries from accredited agents.</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Book 2: Beyond the Wall -->
-    <div class="grid md:grid-cols-2 gap-16 mb-40">
-        <div class="sticky-container md:sticky md:top-24 self-start">
-            <div class="book-image-container">
-                <img src="{{ '/images/beyond-the-wall.png' | relative_url }}" class="rounded-[40px] shadow-2xl w-full transition-transform duration-700 hover:scale-[1.02]">
-            </div>
-        </div>
-        <div class="flex flex-col justify-center">
-            <h1 class="text-4xl md:text-6xl font-extrabold mb-4 tracking-tighter text-gray-900">Beyond the Wall</h1>
-            <p class="text-rose-600 mb-8 font-bold uppercase tracking-[0.2em] text-sm">Manuscript Coming Fall 2026</p>
-            
-            <!-- FIXED TEXT BLOCK -->
-            <div class="text-xl text-gray-600 leading-relaxed mb-12 font-medium">
-                <p class="mb-6">
-                    In an impoverished world where ruthless rules keep the poor desperate, Sorrel has one goal - keep her younger sister, Livia, alive.
-                </p>
-                <p class="mb-6">
-                    Millennia ago, towering walls were raised to protect humanity from the creatures beyond. Inside them, survival is scarce. Outside them, it is impossible.
-                </p>
-                <p class="mb-6">
-                    When a single, devastating mistake forces both Sorrel and her sister beyond the walls, Sorrel realizes just how far she'll go to keep her sister alive. The monsters are worse than they had ever imagined.
-                </p>
-                <p class="mb-6">
-                    To keep her sister alive, Sorrel must do the unthinkable.
-                </p>
-                <p>
-                    She must become the very thing the walls were built to keep out.
-                </p>
-            </div>
-
-            <div class="world-node">
-                <h3 class="font-bold text-2xl mb-3 tracking-tight text-rose-600">Status</h3>
-                <p class="text-gray-500 text-lg leading-relaxed">Manuscript estimated completion date: Fall 2026</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ABOUT SECTION -->
-<section id="about" class="py-40 px-6 bg-[#fbfbfd]">
-    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-20">
-        <div class="relative group">
-            <div class="absolute -inset-4 bg-gradient-to-tr from-indigo-500 to-rose-500 rounded-full blur opacity-20 transition-all duration-500 group-hover:opacity-40"></div>
-            <div class="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl flex items-center justify-center bg-gray-100">
-                <img src="{{ '/images/headshot.png' | relative_url }}?v={{ site.time | date: '%s' }}" 
-                     alt="Amanda Lynn"
-                     class="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
-                     onerror="this.src='https://ui-avatars.com/api/?name=Amanda+Lynn&size=512'">
-            </div>
-        </div>
-        <div class="max-w-xl text-center md:text-left">
-            <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight">Aspiring Published Author</h2>
-            <div class="text-lg md:text-xl text-gray-600 leading-relaxed font-medium">
-                <p class="mb-6">
-                    Amanda Lynn is an aspiring novelist. Storytelling came naturally from a young age. Her first memory creating something that others stopped to listen was in fourth grade, during standardized testing week. Her entire class created a fort of desks and turned out the lights while Amanda entertained her classmates with ghost stories made up on the spot.
-                </p>
-                <p>
-                    Based in the Northeast, Amanda's active imagination and vivid dreams come to life in thick journals with the help of her trustie dog companion warming her lap.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+            <button onclick="document.getElementById('books').scrollIntoView({behavior:'smooth'})" class="w-full sm:w-auto bg-black text-white px-14 py-6 rounded-full font-bold hover:scale-105 active:scale-95 transition-all shadow-2xl shadow-indigo-500/20">Explore the Works</button>
+            <button onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})" class="w-full sm:w-auto bg-white/60 border border-black/10 backdrop-blur-xl text-black px-1
