@@ -117,7 +117,7 @@ layout: default
                     Amanda Lynn is an aspiring novelist whose love of storytelling began early. One of her first memories of capturing an audience comes from fourth grade, during standardized testing week, when her class built a fort of desks and turned out the lights. They gathered round as Amanda improsived ghost stories on the spot.
                 </p>
                 <p>
-                    Based in DC, Amanda brings her vivid imagination and dream-driven ideas to life in thick journals, always with the help of her trustie dog companion warming her lap as she writes.
+                    Based in DC, Amanda brings her vivid imagination and dream-driven ideas to life in thick journals, always with the help of her trusty dog companion warming her lap as she writes.
                 </p>
             </div>
         </div>
